@@ -2,10 +2,8 @@ from time import time, sleep
 from math import ceil
 import twitter
 
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
+from keys import consumer_key, consumer_secret, access_token, access_token_secret
+
 MAX_REQUESTS_PER_WINDOW = 180 # per 15 min
 MAX_POSTS_PER_CALL = 100
 class Twitter():
